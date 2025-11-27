@@ -1,11 +1,15 @@
 ## 安装zetachain
 
-` npm install -g zetachain
+` npm install -g zetachain`
 
 ### 报错
-
+In: 
 ```
 xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ sudo npm install -g zetachain
+```
+
+Out:
+```
 npm WARN ERESOLVE overriding peer dependency
 npm WARN While resolving: @ton/ton@15.4.0
 npm WARN Found: @ton/core@0.60.1
@@ -260,11 +264,15 @@ npm WARN EBADENGINE }
 
 ```
 
-大抵是nodejs版本太旧了 需要新的 但是我刚刚不是用apt装完了吗？
+大抵是nodejs版本太旧了 需要新的 
+
+>*但是我刚刚不是用apt装完了吗？
+
 Gemini推荐我用nvm解决
 
 #### Q: 什么是nvm? 
-> 似乎是nodejs自己的版本管理app吧 我猜是nodejs version manager
+
+> *似乎是nodejs自己的版本管理app吧 我猜是nodejs version manager
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -274,16 +282,16 @@ nvm use 20
 
 ### 修正并重新安装
 
-` npm install -g zetachain
+` npm install -g zetachain`
 
-` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain --version
-`7.4.0
+` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain --version 7.4.0`
 
-` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain query chains list
+` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain query chains list`
 
 安装完成 我们看到链了！
 
-`✔ Successfully fetched 13 supported chains, 32 tokens, and 13 chain params
+`✔ Successfully fetched 13 supported chains, 32 tokens, and 13 chain params`
+
 ```
 ┌──────────┬────────────────────┬───────┬──────────────────────────────────┐
 │ Chain ID │ Chain Name         │ Count │ Tokens                           │
