@@ -1,6 +1,6 @@
 ## 安装zetachain
 
-``npm install -g zetachain
+` npm install -g zetachain
 
 ### 报错
 
@@ -274,12 +274,12 @@ nvm use 20
 
 ### 修正并重新安装
 
-`npm install -g zetachain
+` npm install -g zetachain
 
-`xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain --version
+` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain --version
 `7.4.0
 
-`xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain query chains list
+` xboxpig@XBPG-PC:/mnt/c/Users/xboxpig$ zetachain query chains list
 
 安装完成 我们看到链了！
 
