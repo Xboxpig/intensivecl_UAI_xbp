@@ -3,7 +3,7 @@ Ubuntu 系统内自带了一个很久的 yarn ,在
 `/usr/bin/yarn`
 经过实验 无法在 ZetaChain 的 webapp 安装中使用
 
-故查找系统环境变量下的所有 yarn想
+故查找系统环境变量下的所有 yarn
 `which -a yarn`
 
 ```
@@ -16,34 +16,9 @@ Ubuntu 系统内自带了一个很久的 yarn ,在
 
 ```
 xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ yarn
-yarn install v1.22.22
-[1/4] Resolving packages...
 ```
 
 ```
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ npx install yarn
-npm error could not determine executable to run
-npm error A complete log of this run can be found in: /home/xboxpig/.npm/_logs/2025-11-27T09_22_20_903Z-debug-0.log
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ which -a yarn
-/home/xboxpig/.nvm/versions/node/v20.19.6/bin/yarn
-/usr/bin/yarn
-/bin/yarn
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ sudo rm /usr/bin/yarn
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ which yarn
-/home/xboxpig/.nvm/versions/node/v20.19.6/bin/yarn
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ nano ~/.bashrc
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ ls
-README.md  eslint.config.mjs  index.html  package.json  public  src  tsconfig.app.json  tsconfig.json  tsconfig.node.json  vite.config.ts  yarn.lock
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ yarn
--bash: /usr/bin/yarn: No such file or directory
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ source ~/.bash
-.bash_history  .bash_logout   .bashrc        
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ source ~/.bash
-.bash_history  .bash_logout   .bashrc        
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ source ~/.bash
-.bash_history  .bash_logout   .bashrc        
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ source ~/.bashrc 
-xboxpig@XBPG-PC:~/zetachin_proj/hello/frontend$ yarn
 yarn install v1.22.22
 [1/4] Resolving packages...
 ...
