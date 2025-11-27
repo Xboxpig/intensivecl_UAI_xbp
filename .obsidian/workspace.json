@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZetaChain nodejs 应用安装记.md",
+                "file": "Zetachain Web app local 部署记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZetaChain nodejs 应用安装记"
+              "title": "Zetachain Web app local 部署记"
             }
           }
         ],
@@ -243,8 +243,9 @@
   },
   "active": "3915b240e34ce467",
   "lastOpenFiles": [
+    "ZetaChain nodejs based localnet安装记.md",
     "ZetaChain_introduction.md",
-    "ZetaChain nodejs 应用安装记.md",
+    "Zetachain Web app local 部署记.md",
     "README.md",
     "CleanShot 2025-11-24 at 18.26.46@2x.png",
     "区块链知识/智能合约.md",
