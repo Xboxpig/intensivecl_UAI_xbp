@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZetaChain_introduction.md",
+                "file": "0.ZetaChain_introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZetaChain_introduction"
+              "title": "0.ZetaChain_introduction"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZetaChain nodejs based localnet安装记.md",
+                "file": "1.ZetaChain nodejs based localnet安装记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZetaChain nodejs based localnet安装记"
+              "title": "1.ZetaChain nodejs based localnet安装记"
             }
           }
         ],
@@ -241,11 +241,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3915b240e34ce467",
+  "active": "e76f26dfa3d2978e",
   "lastOpenFiles": [
-    "ZetaChain_introduction.md",
-    "Zetachain Web app 本地部署记.md",
-    "ZetaChain nodejs based localnet安装记.md",
+    "2.Zetachain Web app 本地部署记.md",
+    "1.ZetaChain nodejs based localnet安装记.md",
+    "0.ZetaChain_introduction.md",
     "README.md",
     "CleanShot 2025-11-24 at 18.26.46@2x.png",
     "区块链知识/智能合约.md",
